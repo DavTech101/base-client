@@ -20,18 +20,18 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-const HTML = tw.html`antialiased`;
+// const HTML = tw.html`antialiased`;
 
-const Body = tw.body``;
+// const Body = tw.body``;
 
 //######################### COMPONENT ######################################################
 function RootLayout({ children }: Props) {
   return (
-    <HTML lang="en" className={`${inter.variable} font-sans`}>
+    <html lang='en' className={`${inter.variable} font-sans`}>
       <Head />
-      <GlobalStyles />
-      <Body>{children}</Body>
-    </HTML>
+      {/* <GlobalStyles /> */}
+      <body>{children}</body>
+    </html>
   );
 }
 
