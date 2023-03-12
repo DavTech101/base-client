@@ -1,0 +1,35 @@
+{
+  "name": "base-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.21.0",
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "next": "13.2.3",
+    "postcss": "^8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0",
+    "styled-components": "^5.3.8",
+    "typescript": "4.9.5",
+    "webpack": "^5.76.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-typescript": "^7.20.0",
+    "@types/styled-components": "^5.1.26",
+    "babel-loader": "^9.1.2", 
+    "babel-plugin-macros": "^3.1.0",
+    "tailwindcss": "^3.2.7",
+    "twin.macro": "^3.1.0"
+  }
+}
